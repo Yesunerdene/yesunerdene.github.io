@@ -11,21 +11,18 @@ function Education() {
           {/* <div className="my-row"> */}
           <Row>
             <Col sm={6} md={6} lg={9}>
-              <p className="title mb0">{item.major}</p>
+              <p className="title text-bigger3 mb0">{item.major}</p>
             </Col>
             <Col sm={6} md={6} lg={3}>
               <p className="title text-small-gray text-end">{`${item.from} - ${item.to}`}</p>
             </Col>
           </Row>
-          {/* </div> */}
-          <a
-            target="_blank"
-            className="title text-bigger3 mb2"
-            href={item?.href}
-          >
-            {item.university}
-          </a>
-          <br />
+          <p className="title text-bigger3 mb3">
+            <a target="blank" href={item?.href}>
+              {item.university}
+            </a>
+          </p>
+          {/* <br /> */}
           <a target="_blank" className="title italic mt1 mb1" href={item?.href}>
             {item.department}
           </a>
@@ -39,7 +36,7 @@ function Education() {
           )}
           <div className="tech-row mt01">
             {item?.techs?.map((tech) => (
-              <div className="tech" key={tech}>
+              <div className="techa" key={tech}>
                 <p className="techtitle">{tech}</p>
               </div>
             ))}

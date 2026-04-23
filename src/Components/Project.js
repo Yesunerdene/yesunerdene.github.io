@@ -10,6 +10,13 @@ function Project({ theme }) {
     <div className="my-card my-info">
       <p className="card-title">Projects</p>
       <p className="card-title">Mobile applications</p>
+      <div className="tech-row mt01">
+        {config?.projects[0]?.techs?.map((tech) => (
+          <div className="tech" key={tech}>
+            <p className="techtitle">{tech}</p>
+          </div>
+        ))}
+      </div>
       {/* <p className="title text-bigger mb0 ml1">{``}</p> */}
       <Row className="my-row">
         {config?.projects?.map((project) => {
@@ -74,7 +81,7 @@ function Project({ theme }) {
         })}
       </Row>
       <p className="title text-bigger mb0 ml1">{`Web sites`}</p>
-      <Row className="my-row">
+      <Row className="my-row items-start just-between">
         {config?.webs?.map((item) => (
           <Col lg={3} md={6} sm={12} xs={12} key={`Projects / ${item?.title}`}>
             <div
@@ -90,7 +97,7 @@ function Project({ theme }) {
                 item.company || ""
               }`}</p>
               <p className="title text-small-gray text-center">{`released in ${item.releasedOn}`}</p>
-              <div className="my-row2  mb1">
+              <div className="my-row2 mb1">
                 <div className="mr3">
                   <a target="blank" href={item?.link || ""}>
                     <FontAwesomeIcon
@@ -104,6 +111,13 @@ function Project({ theme }) {
                 <div className="ml3" onClick={() => select(item)}>
                   <p className="title text-bigger2 mb0 text-center">ⓘ</p>
                 </div>
+              </div>
+              <div className="tech-row mt01">
+                {item?.techs?.map((tech) => (
+                  <div className="tech" key={tech}>
+                    <p className="techtitle">{tech}</p>
+                  </div>
+                ))}
               </div>
               <div className="line" />
               <div className="dot" />

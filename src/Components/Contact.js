@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import config from "../config";
-import cv from "../assets/cv_yesunerdene.pdf";
+import cv from "../assets/cv_yesunerdene_jargalsaikhan.pdf";
 
 function Contact({ theme }) {
   return (

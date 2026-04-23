@@ -8,3 +8,4 @@ export { default as Education } from "./Education";
 export { default as Experience } from "./Experience";
 export { default as Techlonogy } from "./Techlonogy";
 export { default as Certificate } from "./Certificate";
+export { default as Visualization } from "./Visualization";

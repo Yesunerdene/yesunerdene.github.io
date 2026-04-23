@@ -13,6 +13,7 @@ import {
   Certificate,
 } from "../Components";
 import MlProjects from "../Components/MlProjects";
+import Visualization from "../Components/Visualization";
 
 function Home({ theme, changeTheme }) {
   return (
@@ -43,6 +44,9 @@ function Home({ theme, changeTheme }) {
               </Col> */}
             </Row>
           </Col>
+          {/* <Col sm={12} md={12} lg={12}>
+            <Visualization theme={theme} />
+          </Col> */}
           <Col sm={12} md={12} lg={12}>
             <Project theme={theme} />
           </Col>

@@ -1,13 +1,19 @@
 // gitprofile.config.js
 
 module.exports = {
-  fullName: "Yesunerdene Jargalsaikhan",
+  fullName: "Yesun-Erdene Jargalsaikhan",
   profession: "Software Engineer",
-  occupation: "5+ years of experience in Mobile app development",
+  occupation: "6 years in Mobile app development",
   // description:
   //   "I am a proactive Software Engineer and MSc Computer Science candidate with over 5 years of proficient experience in mobile application project development. My expertise spans software engineering, machine learning, and deep learning, with hands-on experience training language and vision models during my master’s studies.\n\nI have developed and published dozen of mobile applications that are widely used in my country and abroad.\n I would like to work on projects that could leverage my knowledge in software development and machine learning integrated applications.",
-  description:
-    "Proactive Software Engineer and MSc Computer Science Candidate with 5+ years of proficient experience in full-lifecycle mobile application development and publication. My expertise spans software engineering, machine learning, and deep learning. During my master’s studies, I gained hands-on experience training, evaluating, and optimizing language and vision models, building a strong foundation in ML workflows. I have a proven track record, having developed and published dozens of widely used mobile applications both nationally and internationally. I am seeking roles where I can leverage my software development skills and learn more in integrating machine learning models with applications.",
+  description: [
+    "I'm a Software Engineer with MSc Computer Science with over 6 years of proficient experience in full-lifecycle mobile application development and publication.",
+    "My expertise spans software engineering, machine learning, and deep learning.",
+    "During my master’s studies, I gained hands-on experience on training, evaluating, and optimizing language and vision models, building a strong foundation in ML workflows.",
+    "I have developed and published dozens of widely used mobile applications both nationally and internationally.",
+    "I am seeking roles where I can leverage my software development skills and learn more in integrating machine learning models with applications.",
+  ],
+  d: "",
 
   contact: [
     {
@@ -65,14 +71,16 @@ module.exports = {
       href: "https://www.unitn.it/en",
       university: "University of Trento, Italy 🇮🇹",
       department: "Department of Information Engineering and computer science",
-      thesis: "TBD",
+      thesis: "Knowledge-Based Concept Token Embeddings for Language Models",
       thesisDescription:
         "Based on the thesis, I developed a mobile application and a website for a real estate selling, renting, purchasing and auctioning platform.",
-      grade: "TBD",
-      major: "MSc in Computer Science candidate",
+      grade: "109/110",
+      major: "MSc in Computer Science",
       degree: "Bachelor",
-      from: "Sep 2023",
-      to: "present",
+      // from: "Sep 2023",
+      // to: "Mar 2026",
+      from: "09/2023",
+      to: "03/2026",
       techs: [
         "Machine Learning",
         "Deep Learning",
@@ -90,16 +98,18 @@ module.exports = {
       href: "https://portal.num.edu.mn/en/",
       university: "National University of Mongolia 🇲🇳",
       department:
-        "\nSchool of Engineering and Applied Scince, (Department of Information and Computer Science)",
+        "\nSchool of Engineering and Applied Science, (Department of Information and Computer Science)",
       thesis:
-        "The real estate advertisement for renting or selling platform based on a map.",
+        "Development of Real Estate Advertisement platform Based on a Map  (Web & Mobile Application)",
       thesisDescription:
         "Based on the thesis, I developed a mobile application and a website for a real estate platform.",
       grade: "3.5 / 4.0",
       major: "BEng in Software Engineering",
       degree: "Bachelor",
-      from: "Sep 2016",
-      to: "Jun 2020",
+      // from: "Sep 2016",
+      // to: "Jun 2020",
+      from: "09/2016",
+      to: "06/2020",
       techs: [
         "Programming",
         "Algorithm design and analysis",
@@ -117,81 +127,160 @@ module.exports = {
   ],
   technologies: [
     {
-      language: "JS",
-      techs: ["React NativeJS", "ReactJS"],
+      language: "Languages",
+      techs: [
+        "Python",
+        "Javascript",
+        "Typescript",
+        "Java",
+        "PHP",
+        "C++",
+        "SQL",
+        "SPARQL",
+        "GraphQL",
+      ],
     },
     {
-      language: "Python",
-      techs: ["torch", "R"],
+      language: "Software Engineering",
+      techs: [
+        "React NativeJS",
+        "ReactJS",
+        "RESTApi",
+        "Websoket",
+        "PHP Symfony",
+        "NodeJS",
+        "AngularJS",
+        "Firebase",
+        "MySQL",
+        "PostregSQL",
+      ],
     },
     {
-      language: "PHP",
-      techs: ["Symfony", "Laravel"],
+      language: "Mobile App Development",
+      techs: [
+        "Redux",
+        "Redux-Saga",
+        "React-Navigation",
+        "Context",
+        "Zustand",
+        "Axios",
+        "Third Party Libraries",
+        "Animation",
+        "State Management",
+        "Push Notifications",
+        "Socket",
+        "Data visualization",
+      ],
     },
     {
-      language: "SQL",
-      techs: ["MySQL", "GraphQL"],
+      language: "Machine Learning",
+      techs: [
+        "PyTorch",
+        "Machine Learning",
+        "Deep Learning",
+        "Applied NLP",
+        "Computer Vision",
+        "Data engineering and visualization",
+        "Knowledge Graphs",
+      ],
     },
     {
-      language: "C",
-      techs: ["C++"],
+      language: "Tools",
+      techs: [
+        "AppStoreConnect",
+        "TestFlight",
+        "Google Play Console",
+        "Git",
+        "Docker",
+        "AWS",
+        "HotUpdates",
+      ],
     },
     {
-      language: "Java",
+      language: "Language",
+      techs: ["English C1", "Italian A2"],
     },
   ],
   experiences: [
     {
-      company: "Datascientia research community in UniTN",
-      position: "Software developer (150h student collaboration)",
-      from: "Feb 2024",
-      to: "Sep 2025",
+      company: "DataScientia research community at University of Trento",
+      position: "Fellow Researcher",
+      // from: "Sep 2025",
+      from: "04/2026",
+      to: "Present",
       href: "https://datascientia.disi.unitn.it/",
       // href: "http://knowdive.disi.unitn.it/",
       description:
-        "I worked on developing the website of UKC, and maintenance of importing new language and concepts to the UKC lexical database",
-      techs: ["AngularJS", "Python", "Docker", "NodeJs", "Mongo"],
-    },
-    {
-      company: "Octagon LLC",
-      position: "Software engineer",
-      from: "Jan 2022",
-      to: "Aug 2023",
-      href: "https://powered.mn/",
-      description:
-        "Octagon LLC is a technology company founded in December 2021 which runs the Octagon - a crypto-based NFT marketplace and crypto exchange platform. \n\n I had worked as a software engineer, especially in the mobile application development of the Octagon app, which includes features of a digital wallet control, a crypto exchange and an NFT marketplace. As a developer, I take responsibility for the whole mobile application project, which I do project planning, designing, developing, testing and maintaining the app.",
-
-      techs: ["React NativeJS", "Firebase", "Typescript"],
-    },
-    {
-      company: "Powered LLC",
-      position: "Software developer (remote)",
-      from: "Jan 2021",
-      to: "Jan 2022",
-      href: "https://powered.mn/",
-      description:
-        "Powered LLC is a technology company founded in January 2021 which runs the YESH.MN - test- based learning app for university general entrance examination for high school students.\n\n I have been working as a software engineer, especially in the mobile application development of YE SH.MN app, which includes features for taking a test of entrance exam. I take responsibility for the whole mobile application project, which involves project planning, designing, developing, testing and maintaining the app.",
-      techs: ["React NativeJS", "Firebase", "Typescript"],
+        "Working on developing the website of UKC, and maintenance of importing new language and concepts to the UKC lexical database. Also developed a mobile application for collecting data from users to improve the knowledge graph of UKC.",
+      techs: [
+        "AngularJS",
+        "Python",
+        "Docker",
+        "NodeJs",
+        "Mongo",
+        "React Native",
+        "JKAN",
+        "Java",
+      ],
     },
     {
       company: "Alpha Labs LLC",
-      position: "Software developer (remote)",
-      from: "Jul 2020",
-      to: "Sep 2025",
+      position: "Software Developer (remote)",
+      // from: "Jul 2020",
+      // to: "Sep 2025",
+      from: "07/2023",
+      to: "01/2026",
       href: "https://www.alphalabs.mn/",
       description:
         "Alpha Labs LLC is a technology company founded in January 2015 and conducts the development of various kinds of platforms. \n\n I have been working as a software engineer, especially in the mobile application development of BSB.MN, G-Power monitoring and ISU Mongolia. I take responsibility in whole projects of the mobile applications respectively, in which I do project planning, designing, developing, testing and maintaining the app.",
-      techs: ["React NativeJS", "Firebase", "AWS cloud", "Typescript"],
+      techs: [
+        "React NativeJS",
+        "Firebase",
+        "AWS",
+        "Typescript",
+        "Google Cloud",
+      ],
     },
     {
+      company: "Powered LLC",
+      position: "Senior Software Engineer",
+      // from: "Jan 2022",
+      from: "01/2022",
+      to: "08/2023",
+      href: "https://powered.mn/",
+      description:
+        "Powered LLC is a technology company founded in December 2021 which runs the Octagon - a crypto-based NFT marketplace and crypto exchange platform. \n\n I had worked as a software engineer, especially in the mobile application development of the Octagon app, which includes features of a digital wallet control, a crypto exchange and an NFT marketplace. As a developer, I take responsibility for the whole mobile application project, which I do project planning, designing, developing, testing and maintaining the app.",
+
+      techs: ["React NativeJS", "Firebase", "Typescript"],
+    },
+    // {
+    //   company: "Powered LLC",
+    //   position: "Software developer (remote)",
+    //   from: "Jan 2021",
+    //   to: "Jan 2022",
+    //   href: "https://powered.mn/",
+    //   description:
+    //     "Powered LLC is a technology company founded in January 2021 which runs the YESH.MN - test- based learning app for university general entrance examination for high school students.\n\n I have been working as a software engineer, especially in the mobile application development of YE SH.MN app, which includes features for taking a test of entrance exam. I take responsibility for the whole mobile application project, which involves project planning, designing, developing, testing and maintaining the app.",
+    //   techs: ["React NativeJS", "Firebase", "Typescript"],
+    // },
+    {
       company: "Digital Mall LLC / And Global",
-      position: "Software engineer",
-      from: "Sep 2019",
-      to: "Jan 2022",
+      position: "Software Engineer",
+      // from: "Sep 2019",
+      // to: "Jan 2022",
+      from: "09/2019",
+      to: "01/2022",
       href: "https://and.global/",
       description:
         "Digital Mall LLC is a technology company founded in June 2019 which runs the BananaMall - an e- commerce platform that for online shopping with delivery service.\n\nAt the beginning of my 4th year of study in software engineering, my former internship employer company offered me to work as a software developer in their e-commerce system. As a part of the development team, I worked as a software engineer, especially in the development of the mobile application, core backend development, and admin panel of the e-commerce platform, and took responsibility for database engineering.",
-      techs: ["React NativeJS", "PHP Symfony", "ReactJS", "MySQL", "Firebase"],
+      techs: [
+        "React NativeJS",
+        "React JS",
+        "PHP Symfony",
+        "ReactJS",
+        "MySQL",
+        "Firebase",
+      ],
     },
   ],
   webs: [
@@ -203,22 +292,45 @@ module.exports = {
       releasedOn: "Jun 2020",
       link: "https://bananamall.mn",
       logo: require("./assets/bananamall.png"),
+      techs: ["ReactJS", "MySQL", "PHP Symfony", "AWS"],
       desc: "An e-commerce website.",
     },
     {
       id: 1,
+      title: "UKC",
+      company: "DataScientia",
+      role: "Researcher & ML engineer",
+      releasedOn: "08/2017",
+      link: "https://ukc.datascientia.eu",
+      logo: require("./assets/ukc.png"),
+      techs: [
+        "AngularJs",
+        "Java",
+        "Python",
+        "NodeJs",
+        "MongoDB",
+        "Docker",
+        "PostgreSQL",
+        "JKAN",
+      ],
+      desc: "I worked on developing a web application of Universal Knowledge Core, where huge, high-quality, human-curated multilingual lexical database can be explored.",
+    },
+    {
+      id: 1,
       title: "Togloom Trade",
-      company: "Ocurus.mn",
+      company: "Ocurus.mn / And Global LLC",
       role: "Web developer",
-      releasedOn: "Aug 2019",
+      releasedOn: "09/2019",
       link: "https://togloom.trade",
       logo: require("./assets/togloom.png"),
-      desc: "I worked on developing a website for an e-sport game virtual item marketplace.",
+      techs: ["PHP", "PHP Laravel", "MySQL"],
+      desc: "I developed a website for an e-sport game virtual item marketplace.",
     },
   ],
   projects: [
     {
       type: "E-commerce",
+      techs: ["React NativeJS", "Typescript", "Javascript", "Firebase"],
       items: [
         {
           id: 5,
@@ -230,7 +342,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.hundredailmarket.mobileapp",
           logo: require("./assets/ail.png"),
-          desc: "I worked on developing a mobile application for all trade centres of building materials in Mongolia to make their trade online. It is an e-commerce application where shop sellers register their products, and buyers purchase their needs online. Also, delivery service companies handle user orders through the application. (React Native JS)",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application for all trade centres of building materials in Mongolia to make their trade online. It is an e-commerce application where shop sellers register their products, and buyers purchase their needs online. Also, delivery service companies handle user orders through the application. (React Native JS)",
         },
         {
           id: 3,
@@ -242,6 +355,7 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.bsb.mobileapp",
           logo: require("./assets/bsb.png"),
+          techs: ["React NativeJs"],
           desc: "I developed the mobile application of BSB.MN for e-commerce of online shopping and delivery service (React Native JS).",
         },
         {
@@ -254,6 +368,7 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.bananamall",
           logo: require("./assets/bananamall.png"),
+          techs: ["React NativeJs"],
           desc: "An e-commerce platform for selling and delivering products online. As a developer, I worked on the following: \n1. Mobile application of the e-commerce (React Native JS)\n2. Core back-end of the e-commerce platform (Symfony PHP)\n3. Admin panel of the e-commerce back-office (React JS)\n4. Database support engineering (SQL)",
         },
         {
@@ -267,7 +382,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.taiki&hl=en",
           logo: require("./assets/taiki.png"),
-          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
         },
         {
           id: 7,
@@ -279,7 +395,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.boloroutlet",
           logo: require("./assets/suvd.png"),
-          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application dedicated to citizens of Mongolians for purchasing products from Korea. (React Native TS)",
         },
       ],
     },
@@ -295,7 +412,9 @@ module.exports = {
           appStore: "https://apps.apple.com/mn/app/yesh-mn/id1556433230",
           playStore: "https://play.google.com/store/apps/details?id=com.yesh",
           logo: require("./assets/yesh.png"),
-          desc: "I worked on developing a mobile application for YESH.MN - test-based learning mobile application for high school students preparing for the university general entrance examination. The application has a testing feature, which lets users take a test of all kinds of high school subjects with various sorts of testing types and show the result with correct answers and theories to review. It also has the feature of helping to choose a profession for students. About 50 per cent of examinees use this application in the corresponding year to prepare for the examination (React Native JS).",
+
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application for YESH.MN - test-based learning mobile application for high school students preparing for the university general entrance examination. The application has a testing feature, which lets users take a test of all kinds of high school subjects with various sorts of testing types and show the result with correct answers and theories to review. It also has the feature of helping to choose a profession for students. About 50 per cent of examinees use this application in the corresponding year to prepare for the examination (React Native JS).",
         },
         {
           id: 1,
@@ -306,7 +425,8 @@ module.exports = {
           appStore: "https://apps.apple.com/mn/app/yesh-mn/id1556433230",
           playStore: "https://play.google.com/store/apps/details?id=com.yesh",
           logo: require("./assets/yesh2.png"),
-          desc: "I worked on developing a mobile application for YESH.MN - test-based learning mobile application for high school students preparing for the university general entrance examination. The application has a testing feature, which lets users take a test of all kinds of high school subjects with various sorts of testing types and show the result with correct answers and theories to review. It also has the feature of helping to choose a profession for students. About 50 per cent of examinees use this application in the corresponding year to prepare for the examination (React Native JS).",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application for YESH.MN - test-based learning mobile application for high school students preparing for the university general entrance examination. The application has a testing feature, which lets users take a test of all kinds of high school subjects with various sorts of testing types and show the result with correct answers and theories to review. It also has the feature of helping to choose a profession for students. About 50 per cent of examinees use this application in the corresponding year to prepare for the examination (React Native JS).",
         },
         {
           id: 5,
@@ -316,8 +436,9 @@ module.exports = {
           releasedOn: "coming soon",
           appStore: "",
           playStore: "",
+          techs: ["React NativeJs"],
           logo: require("./assets/isu.jpeg"),
-          desc: 'I worked on developing a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
+          desc: 'I developed a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
         },
         {
           id: 8,
@@ -327,8 +448,22 @@ module.exports = {
           releasedOn: "coming soon",
           appStore: "https://apps.apple.com/it/app/ilogg/id1579007486?l=en-GB",
           playStore: "",
+          techs: ["React NativeJs"],
           logo: require("./assets/ilog.png"),
-          desc: 'I worked on developing a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
+          desc: 'I developed a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
+        },
+        {
+          id: 1,
+          title: "Drivintest MN",
+          company: "Powered LLC",
+          role: "Mobile app developer",
+          releasedOn: "May 2021",
+          appStore: "https://apps.apple.com/mn/app/yesh-mn/id1556433230",
+          playStore: "https://play.google.com/store/apps/details?id=com.yesh",
+          logo: require("./assets/drivingtest.png"),
+
+          techs: ["React NativeJs"],
+          desc: "Mobile application for preparing the driving theory test exam. Has varius functions for preparing the exam and analysing results.",
         },
       ],
     },
@@ -345,7 +480,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.octagonwallet.mobile",
           logo: require("./assets/octagon.png"),
-          desc: "I worked on developing a mobile application for Octagon Ecosystem - a crypto exchange market, NFT marketplace, and digital wallet. It has broad features, such as a virtual asset market, a virtual ticket utility, awarded competitions and more (React Native Js).",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application for Octagon Ecosystem - a crypto exchange market, NFT marketplace, and digital wallet. It has broad features, such as a virtual asset market, a virtual ticket utility, awarded competitions and more (React Native Js).",
         },
         {
           id: 4,
@@ -357,7 +493,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.walkandearn.mobileapp",
           logo: require("./assets/and.png"),
-          desc: "I worked on developing a mobile application for the statistics on the walking of the whole national citizens. It works like a pedometer and rewards the person who reaches the targeted number of steps (React Native JS). ",
+          techs: ["React NativeJs"],
+          desc: "I developed a mobile application for the statistics on the walking of the whole national citizens. It works like a pedometer and rewards the person who reaches the targeted number of steps (React Native JS). ",
         },
       ],
     },
@@ -374,7 +511,8 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.gpower.mobile",
           logo: require("./assets/gpower.png"),
-          desc: 'I worked on developing a mobile application for the clients of a power supply company named "Gpower" for monitoring and surveillance of power consumption of their activity (React Native JS).',
+          techs: ["React NativeJs"],
+          desc: 'I developed a mobile application for the clients of a power supply company named "Gpower" for monitoring and surveillance of power consumption of their activity (React Native JS).',
         },
       ],
     },

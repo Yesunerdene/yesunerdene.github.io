@@ -29,7 +29,7 @@ function MlProjects() {
 
   return (
     <div className="my-card my-info experience">
-      <p className="card-title">ML projects</p>
+      <p className="card-title">Machine Learning projects</p>
       {/* <Row> */}
       {config?.mlprojects?.map((item) => (
         <Col
